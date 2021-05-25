@@ -1,1 +1,65 @@
+Day-1 :  Date :  (24-05-2021)
+
+A:- Worked on finding the best resource that can be used to learn AWS Cloud Practioner.
+B:- Founded the Required Content for Clearing the AWS Cloud Practioner Exam.
+C:- Divided the Learning Modules of the AWS Certified Cloud Practitioner into different section daywise.
+D:- Learned first section for AWS cloud practioner course(Fundamental Concepts) as:
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                              Cloud Computing Fundamentals
+                                              
+1 - Why Cloud Computing ---- In Early 2000 when you start a Business and In business if the used of cloud computing then you have to need set up infrastructure , you have also
+need of man power for Mangement . In those days very few people know about Cloud Computing . Those have cloud computing of knowledge who have havily charged for his services .
+Just think about it how difficult is start the bussiness.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2-  Challanges ------(a) - Invest Heavily for Setup.
+(b) - Invest in Resources .
+(c) - Scalability
+(d) - Less time to focus on Business .
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3 - How Cloud Computing Helps ? ---- (a) - Cloud Computing is Analogous to Electricity Supply .
+(b) - You Pay What You Use .
+(c) - Somebody Else Mangages the services .
+(d) - Focus on Your bussiness .
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4 - What is Cloud Computing ? ----- In Simple words Cloud Computing enables on demond services like compute , storage , Networking etc. Which can be accessed through the
+internet and the user is not required to manages these resources . These can be access through the Internet from anywhere across the Globel .
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5 - Features ----------- (a) - Pay as you Go 
+(b) - Scalable
+(c) - Flexible
+(d) - Secure and Disaster .
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6 - Cloud Service Model Types ---There are three main service models of cloud computing .
+1 - Infrastructure as a Service (IaaS)
+2 - Platform as a Service (PaaS) 
+3 - Software as a Service (SaaS).
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7 - IaaS (Infrastructure as Service) -----Hardware, software and your application code has to be managed. You select the servers to activate (either physical or virtual), 
+install the OS and software stack, then finally deploy your applications. Some providers offer very low-level controls so that you can build your own data center in the cloud.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8 - PaaS (Platform-as-a-Service)---------This type of service abstracts away all of the hardware decisions. Only the software stack and your application code has to be managed.
+Select the appropriate provider depending on the software stack you want then deploy your applications. The actual servers, network and storage are all taken care of
+automatically by the platform.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9 - SaaS (Software as a Service)--------This is the highest abstraction level and means you are just using a web application and never see the hardware and software stack that
+makes it run. You enter your own data into the application provided however some of the bigger applications allow for building custom apps on top (e.g. Facebook).
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10 - Cloud Deployment Models ----  (a) - Public
+(b) - Private
+(c) - Hybrid
+(d) - Community
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11 - Cloud Computing Myths ----- (a) - Cloud Computing Cuts Jobs . 
+(b) - Cloud is for Techies Alone .
+(c) - Cloud Computing is not safe . Cloud is Just for Virtualization .
+(d) - Cloud is Just for Virtualization .
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12 - Popular Cloud Service Providers --- (a) - Amazon  Web Services . 
+(b) - Google Cloud Platform . 
+(c) - Microsoft Azure . 
+(d) - IBM Cloud .
+
 
