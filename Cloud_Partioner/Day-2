@@ -29,22 +29,24 @@ and the userr is not required to manage these resources .
 (A) - Understand  System Operations and VM (Virtual Machine)
 (B) - Ability to Migrate and Monitor on Premise Data .
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-7 -  AWS Regions and Availability Zones --- Amazon EC2 is hosted in multiple locations world-wide. These locations are composed of regions and Availability Zones. Each region
-is a separate geographic area. Each region has multiple, isolated locations known as Availability Zones. Amazon EC2 provides you the ability to place resources, such as
-instances, and data in multiple locations. Resources aren't replicated across regions unless you do so specifically .
+7 -  AWS Regions and Availability Zones --- Amazon EC2 is hosted in multiple locations world-wide. These locations are composed of regions and Availability Zones.
+Each regionis a separate geographic area. Each region has multiple, isolated locations known as Availability Zones. Amazon EC2 provides you the ability to place
+resources, such asinstances, and data in multiple locations. Resources aren't replicated across regions unless you do so specifically .
 ------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------
 8 - Advanatges of AWS Cloud ---- 
-(A) - Scalability: in the cloud if you are building customer facing applications, it is quite easy to be able scale your application to meet customer demand. But also remember
-that scalability comes with a huge price tag
-(B) - Cost control and billing monitoring: I mentioned a few times that running a cloud operation is costly, but you can mitigate the risk of ending up with a huge bill at the
-end of the month with tools like: monitoring, billing management and budgeting. Many cloud providers already have these tools built into their offers to help you set budgets 
-and threshold.
-(C) - Collaboration: with a cloud based service it very easy to collaborate with your colleagues and in this case I am talking about developers. On AWS for example there tools 
-like a AWS code-commit which is the AWS implementation of git. With this tool you can control access to repositories and even set rules on branch commits.
+(A) - Scalability: in the cloud if you are building customer facing applications, it is quite easy to be able scale your application to meet customer demand. 
+But also rememberthat scalability comes with a huge price tag
+(B) - Cost control and billing monitoring: I mentioned a few times that running a cloud operation is costly, but you can mitigate the risk of ending up with a huge
+bill at theend of the month with tools like: monitoring, billing management and budgeting. Many cloud providers already have these tools built into their offers to help
+you set budgets and threshold.
+(C) - Collaboration: with a cloud based service it very easy to collaborate with your colleagues and in this case I am talking about developers. On AWS for
+example there tools like a AWS code-commit which is the AWS implementation of git. With this tool you can control access to repositories and even set rules
+on branch commits.
 (D) - Another benefit is HA( ability to deploy highly available services) you can spin up a version of your infrastructure in one region and then have an identical 
 infrastructure in another region on standby so that if something happens in your primary region your services will still be available to your customers while you find a 
 solution.
-(E) - Hybrid infrastructure: this is the model almost everyone is using these days, hybrid infrastructure allows you to run some services and infrastructure on premise And in
-the cloud, let say your Engineer right codes but you don't feel safe using a centralized repository on premise, you can use cloud based tools to allow your developers to work 
-from anywhere commiting their code to a cloud based got server and even build testing environment in the cloud. Or in another scenario: if you run a factory that has iot
-devices you can have these devices send data to the cloud. And from there you can use analytics tools and find various pattern from the data you collect.
+(E) - Hybrid infrastructure: this is the model almost everyone is using these days, hybrid infrastructure allows you to run some services and infrastructure on premise
+And in the cloud, let say your Engineer right codes but you don't feel safe using a centralized repository on premise, you can use cloud based tools to allow your
+developers to work from anywhere commiting their code to a cloud based got server and even build testing environment in the cloud. Or in another scenario: if you 
+run a factory that has iotdevices you can have these devices send data to the cloud. And from there you can use analytics tools and find various pattern from the
+data you collect.
