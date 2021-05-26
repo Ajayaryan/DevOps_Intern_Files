@@ -1,1 +1,45 @@
-H
+Day - 3      26/05/2021
+
+Amazon Lambda -- AWS Lambda is a serverless compute service by Amazon web services . Developers do not need to worry about which resources to launch , 
+or how to manage them . All they must do is just put the code on amazon Lambda and it should work .
+
+Amazon Elastic Load Balancers :  Scenario :---
+(a)-Sudden spoke in application Traffic .                                
+(b)Application Crash due to Unknown reasons .         
+(c)- EC2 instance crash.
+
+Amazon Elastic Load Balancers ----It is a load balancing service by AWS , which distributes incoming traffic across several targets , such as Amazon EC2 instance ,
+Lambda Function , Containers , and range of IP Address in multiple Availability zones .                                                    
+(a)- Automatically scales to meet the incoming traffic .                                                                                                  
+(b)-Improve Overall performance of application .                                                                                                        
+(c)- Increase availability and fault tolerance applications .                                                                                            
+(d)- Regular health checks , to send only to healthy targets .
+
+Amazon Elastic Load Balancers  Types----                                                                                                                 
+(a)-Classic Load Balancers      -- A Classic Load Balancer makes routing decisions at either the transport layer (TCP/SSL) or the application layer (HTTP/HTTPS).
+Classic Load Balancers currently require a fixed relationship between the load balancer port and the container instance port. 
+
+(a)Classic Load Balancers      --A Classic Load Balancer is used for simple load balancing of traffic across multiple EC2 instances.An Application Load Balancer is more 
+suited for Microservices based architecture or container-based architecture.Mainly in these architecture there is a need to do load balancing as well as there is a need to 
+route traffic to multiple services on same EC2 instance.The Application Load Balancer is considered more intelligent than classic Load Balancer      
+
+example --  it is possible to map the load balancer port 80 to the container instance port 3030 and the load balancer port 4040 to the container instance port 4040.
+However, it is not possible to map the load balancer port 80 to port 3030 on one container instance and port 4040 on another container instance. This static mapping requires 
+that your cluster has at least as many container instances as the desired count of a single service that uses a Classic Load Balancer. 
+
+(b)- Network Load Balancers  --- A Network Load Balancer makes routing decisions at the transport layer (TCP/SSL). It can handle millions of requests per second.
+After the load balancer receives a connection, it selects a target from the target group for the default rule using a flow hash routing algorithm. It attempts to open a
+TCP connection to the selected target on the port specified in the listener configuration. It forwards the request without modifying the headers. Network Load Balancers
+support dynamic host port mapping.
+
+(b)--What does network load balancing do?--Load balancing is the ability to distribute the data traffic among multiple links and routers within a network to reduce 
+congestion and to utilize the unused links in a network.support dynamic host port mapping . 
+
+For example in the Topology (network) below, suppose you are sending data from node A to node B.In L3 or L2 networks, without load balancing enabled, traffic will only
+flow via one path from node A to node B.In this case, all the traffic from node A to node B will flow via link 1— node C —link 2, (in RED) even though there is another
+path to node B via link 3—node D —link 4. (in GREEN) . This could lead to congestion in links 1 and 2 and at node C.With load balancing, if there are two paths available
+from node A to node B, it will use both the available paths to send traffic. Hence, reducing the load on link 1, node C, link 2 and distributing it via link 3, node D, 
+link 4 and using the available network bandwidth effectively.     
+   
+(c)-  Application Load Balancers ------An Application Load Balancer makes routing decisions at the application layer (HTTP/HTTPS), supports path-based routing, and can route
+requests to one or more ports on each container instance in your cluster. Application Load Balancers 
