@@ -1,1 +1,48 @@
-Hii
+Day 2:(25-04-2021)
+
+Topics covered:
+
+IAM(Identity and Access Management):-In general, 2 things define the importance of IAM domain:
+
+1 - Who you are? i.e. Your Identity
+2 - What all resources you can access? i.e. Your access to resources.
+Every organization needs to maintain the identities of it’s employees, customers, and even resources. Identity management provides a central repository of such records.
+You can store as much detail as you need. The implementation for having identity solution can be as simple as a flat file or it can be as sophisticated as having a full 
+blown IDM tool like OIM, Sailpoint IDM etc. IDM makes it easier for the employer/organization to maintain/manage user’s/resource’s life-cycle. They can track salaries,
+vacations, business units etc.
+
+Access management solutions provide a wide variety of security features. You can have multiple ways of accessing applications, multi-factor authentications, risk adaptive 
+authentication etc. You can then use separate layer of authorization to make your applications/resources even more secure. This way any organization can control that 
+who can access their applications, and what all features should be made available to whom.
+
+Almost always both Identity, and Access management solutions are implemented in organizations to manage users, and secure applications.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IAM Permissions: Users or groups can be assigned json documents called policies and these policies define the permissions of the users.
+		 In general in aws we assign least priviledge principle,that is dont give more permission that a user needs.
+	
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IAM Policies Structure:- It consisits of version: Policy language version(2012-10-17)
+			 Id: an identifier for the policy.
+			 Statement: one or more individual statements(req)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Statement consists of: Sid: an identifier for the statement(optional)
+		       Effect: whether the statement allows or denies access(Allow,Deny)
+		       Principal: Account/user/role to which this policy applued to.
+		       Action:list of actions this policy allows or denies.
+		       Resource: list of resources to which the actions applied to.
+		       Condition: conditions for when this policy is in effect (optional).
+           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+           
+           
+  Amazon Web Service EC2 - the virtual machine provided by Amazon - also called instances, has many advantages. 
+  First of all, it provides a highly scalable computing capacity. They are easy to start and stop. And they provide 
+  options to choose among the different type of operating systems. It eliminates the need for upfront investment on 
+  the hardware, and you can develop and deploy applications on Amazon servers faster. You are given the flexibility to
+  launch as many EC2 servers as per your requirements and configure aspects like - security, networking and storage - as per your liking.
+  
