@@ -1,1 +1,49 @@
 
+Day-7 :  Date :  (30-05-2021)
+
+----------------------------------------------------------------------------------------------------
+
+1 - What is an RDS? How do you migrate an existing data base server in Amazon?
+
+RDS is a Platform as a Service offering from AWS. Here AWS take care of the hardships 
+of managing a server. We will get an Endpoint, just need to point this in our main EC2 or
+wherever you need.
+
+Personally I felt RDS to be a powerful service, it always helped me in other DB related issues.
+
+It has Multi A-Z deployment (which is not under free tier), automated backups, logs and lot of other features.
+
+Currently it provides Amazon Aurora (the most powerful DB I have ever used-but be careful to have a
+look at the pricings), MySQL, MariaDB, Oracle, Microsoft SQL Server, and PostgreSQL.
+
+For migration, you can use AWS Database Migration Service or traditional method (taking dump file from one and import to RDS)
+
+--------------------------------------------------------------------------------------------------------------
+
+2 - What is the significance of the AWS Shared Security Responsibility model?
+
+Basically it means:
+
+A - Amazon is responsible for the security of the cloud
+B - You are responsible for security in the cloud
+Concrete examples:
+
+Amazon is supposed to ensure:
+
+A - Your network traffic is only visible in the networks/security groups/machines/etc. you authorize
+B - Your EC2 server doesn’t have spyware in the firmware that is sending your data off somewhere
+C - Your data stored in S3 is not reachable except by sources you configure / API keys associated with your account.
+You are supposed to ensure:
+
+A - There are no vulnerabilities in your application
+B - Only authorized users have access to your API keys and passwords
+C - The software stack you install, for example, on EC2 is patched and secure
+So, here are some scenarios:
+
+A - Preventing the physical theft of hard drives from a datacenter - Amazon’s job
+B - Preventing a disgruntled employee from closing your AWS account and deleting all your data - Your job
+C - Ensuring there isn’t malware in the hypervisor running your Linux machines on EC2 - Amazon’s job
+D - Ensuring your Apache server is patched - Your job
+E - Ensuring only necessary ports are configured open in your firewal - Your job
+F - Ensuring network traffic to blocked ports is rejected - Amazon’s job
+G - Preventing hackers from using SQL injection, cross site scripting, phishing, social engineering, etc., etc. to access your systems - Your job
