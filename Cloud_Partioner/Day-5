@@ -1,1 +1,47 @@
-h
+Day-5 :  Date :  (28-05-2021)
+
+
+1 - Aurora
+
+It is the AWS DB engine based on Postgresql and MySQL open source databases.
+
+It is offered as a database engine for AWS RDS (relational database as service) and it is quite cool 
+although the performance to cost ratio may be less than ideal, and users need to reserve I/O in advance for 
+a decent performance.
+
+Alternate scalable / elastic relational databases as a Service include Google Cloud Spanner, Cockroach DB 
+from Cockroach Labs, and even AWS RDS with Postgresql engine.
+
+Other NewSQL databases like TiDb, Volt Db, or Postgresql clustering solutions like Citus address also worth a look.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+2 - How does Amazon Aurora work behind the scenes?
+
+Amazon has not been very transparent about that as yet. There was a project with that name some years ago that
+was built around Informix structures, not a bad foundation, however there is talk around that it is InnoDB based, 
+except that the storage model is more like Hadoop.
+
+In any case, when they formally release it to beta testers, and then to the general public, this lack of information
+will have to be remedied, as without understanding, and being able to trust it, large scale adoption will not happen.
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+3 --Amazon DynamoDB
+
+Amazon DynamoDB is a fully managed NoSQL database service that offers fast and predictable performance with perfect scalability. 
+DynamoDB lets you offload the administrative burden of operating and scaling a distributed database, so you don't have to worry
+about hardware provisioning, installation, and maintenance. cluster configuration, replication, patching, or scaling. DynamoDB 
+also offers encryption at rest, eliminating the operational burden and complexity of protecting sensitive data. For more information, 
+see DynamoDB Encryption at Rest.
+
+
+With DynamoDB, you can create database tables that can store and retrieve any amount of data and serve any level of demand traffic.
+You can increase or decrease the performance capacity of your tables without downtime or performance degradation. You can use the
+AWS Management Console to monitor resource usage and performance metrics.
+
+A - NoSQL Workbench for DynamoDB
+B - Table interregional backups
+C - Amazon CloudWatch Contributor Information for DynamoDB
+Encrypt your table data using your own encryption keys
