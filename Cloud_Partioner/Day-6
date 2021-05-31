@@ -1,1 +1,48 @@
 
+Day-6 :  Date :  (29-05-2021)
+
+--------------------------------------------------------------------------------------------------------
+
+1 - Elasticache
+
+Elasticache is primarily used when you want to access your frequently accessed data or results of
+queries to be available faster. Cache is primarily used with your Database to ensure that the most
+frequently accessed query results can be delivered faster. The right use case would be user session
+information, session time out value, counters etc.
+
+If you are looking to cache static assets such as images, css or js files, Elasticache is not the
+right option. Instead go for AWS CloudFront (or an equivalent if you want to go for a non AWS
+service such as Cloudflare, Akamai etc) which is a content delivery service and can cache your 
+content and render them each time a http(s) request is made
+
+--------------------------------------------------------------------------------------------------
+
+2 - What is the difference between ElastiCache and DynamoDB Accelerator in AWS?
+
+DynamoDB accelerator is used to cache DynamoDB results and speed up queries to that service.
+ElastiCache supports both Redis and and Memcached; it provides a managed service that offers 
+the capabilities of those two caching products. Typically, those products are used to cache
+results from relational databases like MySQL or PostgreSQL. So, in effect, the question is 
+whether you want to use DynamoDB or another datastore, one that is (typically) a relational 
+database. Both ElastiCache and DynamoDB will speed up the performance of the underlying datastore;
+you just need to decide which datastore you prefer for your application.
+
+
+-----------------------------------------------------------------------------------------------------
+
+3 -- Amazon Redshift
+
+
+Amazon Redshift is a fully-managed, cloud-ready data warehouse service that you can easily integrate 
+together with other BI tools that you have. To make this warehouse work, you just need to Extract, 
+Transform, and Load into the warehouse and it can help you with the rest of the work.
+
+Since this warehouse comes from Amazon, it will make life easier. You can start with some of their
+basic plans of a few hundred gigabytes for the data, scaling up and down easily based on the current
+demands that your company has. This makes it easier for you to leverage any data that you acquire to
+help make your business easier.
+
+To launch the warehouse, you just need to launch a set of nodes, which is known as the Redshift
+cluster. Once you have been able to provision the cluster, you will find your sets of data are 
+easy to uploaded to run any query. With Redshift, you are able to take advantage of fast query
+performance, no matter how big or small your set of data, which helps you to get work done.
