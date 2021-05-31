@@ -1,26 +1,49 @@
-Day - 8  
-AWS DevOps
+Day - 8  (Date :  (30-05-2021)
 
-AWS is one of the best cloud service provider and DevOps on the other hand is the ‘need of the hour’ implementation of software development lifecycle. Following reason make AWS DevOps a highly popular amalgamation:
+------------------------------------------------------------------------------------------
 
-AWS CloudFormation
+1 - AWS DevOps
 
-DevOps teams are required to create and release cloud instances and services more frequently than traditional development teams. AWS CloudFormation enables you to do just that.‘Templates’ of AWS resources like EC2 instances, ECS containers, and S3 storage buckets let you set up the entire stack without you having to bring everything together yourself.
+AWS is one of the best cloud service provider and DevOps on the other hand is the 
+‘need of the hour’ implementation of software development lifecycle. Following reason
+make AWS DevOps a highly popular amalgamation:
 
-AWS EC2
+------------------------------------------------------------------------------------------
 
-AWS EC2 speaks for itself. You can run containers inside EC2 instances. Hence you can leverage the AWS Security and management features. Another reason why AWS DevOps is a lethal combo.
+2 - AWS CloudFormation
 
-AWS CloudWatch
+DevOps teams are required to create and release cloud instances and services more frequently
+than traditional development teams. AWS CloudFormation enables you to do just that.‘Templates’
+of AWS resources like EC2 instances, ECS containers, and S3 storage buckets let you set up the
+entire stack without you having to bring everything together yourself.
 
-This monitoring tool lets you track every resource that AWS has to offer. Plus it makes it very easy to use third party tools for monitoring like Sumo Logic etc
+------------------------------------------------------------------------------------------
 
-AWS CodePipeline
+3 - AWS EC2
 
-CodePipeline is one popular feature from AWS which highly simplifies the way you manage your CI/CD tool set. It lets you integrate with tools like GitHub, Jenkins, and CodeDeploy enabling you to visually control the flow of app updates from build to production.
+AWS EC2 speaks for itself. You can run containers inside EC2 instances. Hence you can leverage
+the AWS Security and management features. Another reason why AWS DevOps is a lethal combo.
 
-Instances In AWS
+------------------------------------------------------------------------------------------
 
-AWS frequently creates and adds new instances to their list and the level of customisation with these instances allow you make it easy to use AWS DevOps together.
+4 - AWS CloudWatch
+
+This monitoring tool lets you track every resource that AWS has to offer. Plus it makes it 
+very easy to use third party tools for monitoring like Sumo Logic etc
+
+------------------------------------------------------------------------------------------
+
+5 - AWS CodePipeline
+
+CodePipeline is one popular feature from AWS which highly simplifies the way you manage 
+your CI/CD tool set. It lets you integrate with tools like GitHub, Jenkins, and CodeDeploy
+enabling you to visually control the flow of app updates from build to production.
+
+------------------------------------------------------------------------------------------
+
+6 - Instances In AWS
+
+AWS frequently creates and adds new instances to their list and the level of customisation
+with these instances allow you make it easy to use AWS DevOps together.
 
 All these reasons make AWS one of the best platforms for DevOps.
