@@ -47,3 +47,15 @@ AWS frequently creates and adds new instances to their list and the level of cus
 with these instances allow you make it easy to use AWS DevOps together.
 
 All these reasons make AWS one of the best platforms for DevOps.
+
+-------------------------------------------------------------------------------------------------
+
+7--IAM ---AWS Identity and Access Management (IAM) is a user identity and role management 
+service that lets you govern your AWS services and resources and have a robust security 
+mechanism in place so that you can safeguard your AWS resources. With the help of AWS IAM,
+you define users and roles then you set up permissions for them so that they can only access
+the resources that they require ensuring there is no misuse of your data and AWS resources.
+It gives you the authority to set up strong authentication options to safeguard the credentials
+of the users so you can know about malicious logins and take action before anything wrong happens.
+
+
